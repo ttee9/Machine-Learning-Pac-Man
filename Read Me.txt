@@ -1,0 +1,7 @@
+Different python test commands to run in command prompt (windows) one at a time: 
+
+python pacman.py -p ApproximateQAgent -x 2000 -n 2010 -l smallGrid
+
+python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumGrid
+
+python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic
